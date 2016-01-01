@@ -11,7 +11,7 @@ body {
   padding:0;
 }
 .business-header {
-    background: url('http://i.imgur.com/NpnDKOP.jpg?1') center center no-repeat scroll;
+    background: url('../images/jumbotron.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -63,14 +63,14 @@ body > header {
   display:inline-block;
 }
 body {
-  background-image:url('http://i.imgur.com/I7ERzsP.png');
+  background-image:url('../images/background.png');
   background-repeat:repeat;
   background-position: initial;
 }
 .business-header{
   display:block;
   height:400px;
-  background-image:url('http://i.imgur.com/NpnDKOP.jpg?1');
+  background-image:url('../images/jumbotron.jpg');
   background-repeat:no-repeat;
   background-size:cover;
   
@@ -175,7 +175,7 @@ ol li {
   
 }
 .card-tech a:after {
-  background: url('http://i.imgur.com/WjDA3Is.png') top center no-repeat;
+  background: url('../images/shadowframe.png') top center no-repeat;
   background-size: contain;
   bottom: 0;
   content: " ";
