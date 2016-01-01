@@ -1,0 +1,248 @@
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+.navbar{
+  height:60px;
+  padding-top:5px;
+}
+.navbar-brand {
+  padding:0;
+}
+.business-header {
+    background: url('http://i.imgur.com/NpnDKOP.jpg?1') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.business-header{
+  height:100%;
+  overflow:hidden;
+}
+/*CALLOUTS*/
+.overlay > div:nth-child(1) {
+  display:none;
+  width:100%;
+  height:521.595px;
+  background:transparent;
+  padding:15% 0 0 15%;
+
+}
+.overlay > div:nth-child(1) > h4 > div {
+  display:none;
+  background:transparent;
+  margin:10% 0 0 10%;
+}
+
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/*Custom*/
+body > header {
+  padding-top: 5.75em;
+}
+.dropdown-menu {
+  width:80em;
+}
+.dropdown-menu li {
+  display:inline-block;
+}
+body {
+  background-image:url('http://i.imgur.com/I7ERzsP.png');
+  background-repeat:repeat;
+  background-position: initial;
+}
+.business-header{
+  display:block;
+  height:400px;
+  background-image:url('http://i.imgur.com/NpnDKOP.jpg?1');
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+.navbar {
+  background-color:#f2f2f2;
+}
+.nav.navbar-nav > li > a{
+  color:#666;
+}
+.nav.navbar-nav > li > a:hover{
+  color:#e56890;
+}
+.panel {
+  display:block;
+  height:100%;
+}
+.col-md-4 {
+    display: block;
+    width: 33.33333333%;
+    height: 400px;
+    top: -80px;
+  padding:0 2px;
+ 	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+  
+}
+div.panel-heading h4,body > header > div > div > div > div > div > div.panel-body{
+  width:90%;
+  margin-left:10%;
+  	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+.panel {
+  border:none;
+  border-radius:0;
+  
+}
+.panel-default{
+    background-color: #f5f5f5;
+    border-color: #ddd;
+
+}
+.panel-heading {
+  color:#333;
+}
+.panel-default {
+  background-color: rgba(200,200,200, 0.5);
+}
+
+.card-tech {
+  display: inline-block;
+  text-align: center;
+}
+.g-tier-1 > .card-tech, .card-tech > .card-tech, .card-tile > .card-tech, .card-blog > .card-tech, .comment-form .comment-form-author > .card-tech, .comment-form .comment-form-email > .card-tech {
+  width: 100%;
+}
+.card-tech .illus {
+  border: 1px solid #19ac78;
+  border-radius: 100%;
+  display: inline-block;
+  height: 120px;
+  margin-top: 35px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  -moz-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -o-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -webkit-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition-delay: 0s;
+  transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  width: 120px;
+}
+.card-tech .illus .hover {
+  left: 10px;
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  -moz-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -o-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition-delay: 0s;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.card-tech a {
+  display: block;
+  padding-bottom: 30px;
+  position: relative;
+  -moz-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -o-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -webkit-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition-delay: 0s;
+  transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+ol {
+  list-style-type:none;
+}
+ol li {
+  display:inline;
+  
+}
+.card-tech a:after {
+  background: url('http://i.imgur.com/WjDA3Is.png') top center no-repeat;
+  background-size: contain;
+  bottom: 0;
+  content: " ";
+  display: block;
+  height: 16px;
+  left: 0;
+  margin-bottom: -16px;
+  opacity: 0;
+  position: absolute;
+  -moz-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -o-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition-delay: 0s;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  width: 100%;
+}
+.card-tech h2, .card-tech h3 {
+  color: #083a49;
+  font-family: 'DIN Pro', sans-serif;
+  font-size: 1.75em;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  padding: 0 5px;
+  white-space: normal;
+}
+.card-tech .sub {
+  color: #083a49;
+  font-family: 'DIN Pro', sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.card-tech .main {
+  border-bottom: 1px solid #19ac78;
+  color: #808080;
+  display: block;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.750em;
+  margin-top: 25px;
+  min-height: 6em;
+  line-height: 1.7em;
+}
+.card-tech p {
+  display: block;
+  margin-left: 35px;
+  margin-right: 35px;
+  white-space: normal;
+}
+.card-tech a:hover {
+  background-color: #fff;
+}
+.card-tech a:hover .illus {
+  background-color: #19ac78;
+}
+.card-tech a:hover:after, .card-tech a:hover .hover {
+  opacity: 1;
+}
+
+.card-tile {
+  background-color: #fff;
+  text-align: center;
+}
+.g-tier-1 > .card-tile, .card-tech > .card-tile, .card-tile > .card-tile, .card-blog > .card-tile, .comment-form .comment-form-author > .card-tile, .comment-form .comment-form-email > .card-tile {
+  width: 100%;
+}
+.g-contain .g-tier-1, .parallax-header h1 .g-tier-1, .parallax-header h2 .g-tier-1, .parallax-header p .g-tier-1, .breadcrumb .g-tier-1, .g-contain .card-tech, .parallax-header h1 .card-tech, .parallax-header h2 .card-tech, .parallax-header p .card-tech, .breadcrumb .card-tech, .g-contain .card-tile, .parallax-header h1 .card-tile, .parallax-header h2 .card-tile, .parallax-header p .card-tile, .breadcrumb .card-tile, .g-contain .card-blog, .parallax-header h1 .card-blog, .parallax-header h2 .card-blog, .parallax-header p .card-blog, .breadcrumb .card-blog, .g-contain .comment-form .comment-form-author, .comment-form .g-contain .comment-form-author, .parallax-header h1 .comment-form .comment-form-author, .comment-form .parallax-header h1 .comment-form-author, .parallax-header h2 .comment-form .comment-form-author, .comment-form .parallax-header h2 .comment-form-author, .parallax-header p .comment-form .comment-form-author, .comment-form .parallax-header p .comment-form-author, .breadcrumb .comment-form .comment-form-author, .comment-form .breadcrumb .comment-form-author, .g-contain .comment-form .comment-form-email, .comment-form .g-contain .comment-form-email, .parallax-header h1 .comment-form .comment-form-email, .comment-form .parallax-header h1 .comment-form-email, .parallax-header h2 .comment-form .comment-form-email, .comment-form .parallax-header h2 .comment-form-email, .parallax-header p .comment-form .comment-form-email, .comment-form .parallax-header p .comment-form-email, .breadcrumb .comment-form .comment-form-email, .comment-form .breadcrumb .comment-form-email {
+  position: relative;
+  width: 312px;
+}
